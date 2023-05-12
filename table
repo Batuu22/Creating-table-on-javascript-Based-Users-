@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>javascript12</title>
+<style type="text/css">
+td{width:200px; height:150px;}
+</style>    
+</head>
+<body>
+<script type="text/javascript">
+var row = prompt("creating table","type the row number...");
+var col = prompt("creating table","type the column number...");
+
+document.write("<table border='1' cellspacing='0' cellpadding='0'>");
+
+    for(var i=1;i<=row;i++){
+
+        document.write("<tr>");
+        
+            for(var j=1;j<=col;j++){
+
+                document.write("<td></td>");
+            }
+
+        document.write("</tr>");
+    }
+
+document.write("</table>");
+</script>    
+</body>    
+</html>
